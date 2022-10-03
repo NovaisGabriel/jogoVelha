@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display:block;
+}
+
+.tile_row {
+    float: left;
+    width: 80%;
+}
+
+.tile {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    margin: 1px;
+    border: 2px solid black;
+}
+
+.tile:hover, .tile.pointer {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.tileAcabou{
+  cursor:null;
+  background-color:white;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+  border: 2px solid black;
+}
+
+img {
+  width:80px;
+  height:80px;
+}
+
+.results{
+  font-size:24px;
+  width: 300px;
+}
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  border: 2px solid black;
+}
+
+.painel{
+  width:50%;
+  min-width: 530px;
+}
